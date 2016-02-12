@@ -13,8 +13,6 @@ server = smtplib.SMTP('smtp.gmail.com:587')
 server.starttls()
 server.login(usr, pwd)
 
-asnt = 'Deivid'
-
 server.sendmail(usr, dst, 'Python Rocks!')
 
 server.quit()
