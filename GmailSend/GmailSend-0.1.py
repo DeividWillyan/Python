@@ -5,8 +5,8 @@
 
 import smtplib
 
-usr = 'deividwillyan.email@gmail.com'
-pwd = 'python123'
+usr = 'email@gmail.com'
+pwd = 'senha'
 dst = input('Destinatario: ')
 
 server = smtplib.SMTP('smtp.gmail.com:587')
