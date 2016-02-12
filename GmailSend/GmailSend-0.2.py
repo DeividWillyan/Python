@@ -11,8 +11,8 @@ import smtplib
 from threading import Thread
 
 def envio(dst):
-    usr = 'deividwillyan.email@gmail.com'
-    pwd = 'python123'
+    usr = 'email@gmail.com'
+    pwd = 'senha'
 
     server = smtplib.SMTP('smtp.gmail.com:587')
     server.starttls()
